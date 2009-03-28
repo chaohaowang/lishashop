@@ -25,16 +25,16 @@ body, table, div, td, input, textarea {
 	font-size: 13px;
 	font-weight: normal;
 	line-height: 1.4em;
-	color: #483324;
+	color: #BA1684;
 }
 a {
 	font-weight: normal;
 	text-decoration: none;
 }
-a:link { color: #1382b9; }
-a:visited {	color: #b954ff; }
+a:link { color: #6e396e; }
+a:visited {	color: #944d94; }
 a.action:link, a.action:visited, a.action.bad:link, a.action.bad:visited {
-	background-color: #049abe;
+	background-color: #6E0D4D;
 	color: #fff !important;
 	font-weight:normal;
 	font-size: 12px;
@@ -251,13 +251,13 @@ div.padLeft {
 	padding-left:10px;
 }
 div.price {
-	background-color: #6ABE32;
+	margin: 20px;
+	background-color: #B3008F;
 	color: #fff;
-	font-size: 25px;
+	font-size: 20px;
 	padding: 5px 10px;
 	text-align: center;
-	font-style: italic;
-	-moz-border-radius: 10px;
+	-moz-border-radius: 5px;
 }
 
 .info {
