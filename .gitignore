@@ -1,0 +1,4 @@
+public/system
+log
+config/database.yml
+config/environment.rb
