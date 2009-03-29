@@ -34,7 +34,7 @@ a {
 a:link { color: #6e396e; }
 a:visited {	color: #944d94; }
 a.action:link, a.action:visited, a.action.bad:link, a.action.bad:visited {
-	background-color: #B3008F;
+	background-color: #990099;
 	color: #fff !important;
 	font-weight:normal;
 	font-size: 12px;
@@ -252,7 +252,7 @@ div.padLeft {
 }
 div.price {
 	margin: 20px;
-	background-color: #B3008F;
+	background-color: #990099;
 	color: #fff;
 	font-size: 15px;
 	font-weight: normal;
@@ -802,7 +802,7 @@ div.p * {
 #customer_msg {
 	position: absolute;
 	margin-left: 390px;
-	margin-top: 53px;
+	margin-top: 30px;
 	background-color: #eee;
 	width: 200px;
 	padding: 0px 5px;
