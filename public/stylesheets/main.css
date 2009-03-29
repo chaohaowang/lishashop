@@ -34,7 +34,7 @@ a {
 a:link { color: #6e396e; }
 a:visited {	color: #944d94; }
 a.action:link, a.action:visited, a.action.bad:link, a.action.bad:visited {
-	background-color: #6E0D4D;
+	background-color: #B3008F;
 	color: #fff !important;
 	font-weight:normal;
 	font-size: 12px;
@@ -254,7 +254,8 @@ div.price {
 	margin: 20px;
 	background-color: #B3008F;
 	color: #fff;
-	font-size: 20px;
+	font-size: 15px;
+	font-weight: normal;
 	padding: 5px 10px;
 	text-align: center;
 	-moz-border-radius: 5px;
@@ -281,9 +282,9 @@ div.price {
 	background-color: #046c82;
 	background-image: url(/plugin_assets/substruct/images/public-ui/buttons/bg.gif) !important;
 	background-repeat: repeat-x;
-	border: 2px solid #000;
+	border: 1px solid #000;
 	font-size: 15px;
-	font-weight: bold !important;
+	font-weight: normal !important;
 	color: #eeeeee !important;
 	color: #eeeeee;
 	text-decoration: none !important;
@@ -535,7 +536,7 @@ input.error {
 
 .textInput, .textArea {
 	border: 1px solid #7d6a55;
-	padding: 4px;
+	padding: 1px;
 }
 .textInput.big {
 	border: 2px solid #7d6a55;
@@ -653,8 +654,8 @@ div.p * {
 	margin: 20px;
 	padding: 10px;
 	z-index: 100;
-	background-color: #B2DF83;
-	border: 1px solid #6AC034;
+	background-color:#FFFEEB;
+	border:1px solid #F7CA75;
 	color: #293F1B;
 }
 #flash h2 {
