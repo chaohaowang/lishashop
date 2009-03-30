@@ -45,7 +45,7 @@ class StoreController < ApplicationController
       :order => 'name ASC',
       :conditions => Product::CONDITIONS_AVAILABLE,
       :page => params[:page],
-      :per_page => 50
+      :per_page => 10
     )
   end
   
