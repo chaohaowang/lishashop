@@ -106,7 +106,23 @@
 		</form>
 	<% end # item in stock %>
 	
-
+	<div>
+		<p>
+		Not ready to buy yet?
+		<br/>
+		<%= 
+			link_to(
+				'Add this item to your wishlist',
+				{
+					:controller => 'customers',
+					:action => 'add_to_wishlist',
+					:id => @product.id
+				},
+				:class => 'action'
+			)
+		%>
+		</p>
+	</div>
 	
 </div>
 <div class="clear">&nbsp;</div>
