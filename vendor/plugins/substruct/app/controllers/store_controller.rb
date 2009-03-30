@@ -45,7 +45,7 @@ class StoreController < ApplicationController
       :order => 'name ASC',
       :conditions => Product::CONDITIONS_AVAILABLE,
       :page => params[:page],
-      :per_page => 10
+      :per_page => 50
     )
   end
   
@@ -56,7 +56,7 @@ class StoreController < ApplicationController
       :order => 'name ASC',
       :conditions => ["(name LIKE ? OR code = ?) AND #{Product::CONDITIONS_AVAILABLE}", "%#{@search_term}%", @search_term],
       :page => params[:page],
-      :per_page => 10
+      :per_page => 50
     )
     # If only one product comes back, take em directly to it.
     if @products.size == 1
@@ -96,7 +96,7 @@ class StoreController < ApplicationController
 		
 		# Paginate products so we don't have a ton of ugly SQL
 		# and conditions in the controller		
-		per_page = 10
+		per_page = 50
     list = Product.find_by_tags(tag_ids_array, true)
     pager = Paginator.new(list, list.size, per_page, params[:page])
     @products = returning WillPaginate::Collection.new(params[:page] || 1, per_page, list.size) do |p|
