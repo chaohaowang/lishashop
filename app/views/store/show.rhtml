@@ -68,6 +68,23 @@
 				:update => 'items'
 			)
 		%>
+		<div align="center" style="margin-top:10px;">
+			<p>
+			Not ready to buy yet?
+			<br/>
+			<%= 
+				link_to(
+					'Add this item to your wishlist',
+					{
+						:controller => 'customers',
+						:action => 'add_to_wishlist',
+						:id => @product.id
+					},
+					:class => 'action'
+				)
+			%>
+			</p>
+		</div>
 		<% if @variations.size > 0 %>
 			<!-- product variations -->
 			<h2>Options</h2>
@@ -105,14 +122,6 @@
 		</table>
 		</form>
 	<% end # item in stock %>
-	Not ready to buy yet?
-	<br/>
-	
-	<div align="center" style="margin-top:10px;">
-		<p>
-		
-		</p>
-	</div>
 	
 </div>
 <div class="clear">&nbsp;</div>
