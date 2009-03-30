@@ -635,7 +635,7 @@ div.pagination {
 	background-color: #EDEDED;
 	/*border-top: 2px solid #C5BEBE;*/
 	padding: 10px;
-	font-size: 1.2em;
+	font-size: 1em;
 	text-align: right;
 	margin: 20px 0px;
 }
@@ -643,8 +643,8 @@ div.pagination a {
 	text-decoration: none;
 }
 div.pagination a, div.pagination span {
-	padding: 5px;
-	font-weight: bold;
+	padding: 2px;
+	font-weight: normal;
 }
 div.p * {
 	font-size: 1.2em;
