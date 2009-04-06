@@ -270,7 +270,6 @@ div.price {
 
 .money {
 	color: #466B2E;
-	font-style:italic;
 }
 
 
@@ -618,8 +617,7 @@ input.error {
 }
 .product .money {
 	display: block;
-	background-color: #69bf32;
-	color: #fff;
+	background-color: #fff;
 	padding: 2px;
 	overflow: hidden;
 	-moz-border-radius: 5px;
