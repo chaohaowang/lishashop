@@ -369,7 +369,7 @@ div.listContainer .list {
 	font-style:italic;
 	color: #333333;
 	background-color: #cccccc;
-	border-top: 1px solid #191465;
+	border-top: 1px solid gray;
 	text-transform:capitalize;
 }
 
@@ -715,8 +715,8 @@ div.p * {
 
 #footer { 
 	padding-top: 20px;
-	border-top: 2px solid #3b3b3b;
-	font-size: 16px;
+	border-top: 1px solid gray;
+	font-size: 14px;
 	margin-bottom: 20px; 
 	margin-top: 20px;
 }
