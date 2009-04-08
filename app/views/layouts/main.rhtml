@@ -9,6 +9,9 @@
 			h controller.controller_name
 		end
 		-%> : <%=h @store_name %></title>
+		<meta name="description" content="Mihoko Shop sells the best Japanese cosmetics: <%=h @title%>" />
+		<meta name="keywords" content="Mihokoshop, Mihoko shop, cosmetics, Japanese, Maquillage, Lunasol, Jill Stuart, Majolica Majoca, <%=h @title%>, on sale, cheap, free shipping" />
+	
 	<%= javascript_include_tag :defaults, :cache => 'default' %>
     <%= javascript_include_tag 'substruct', 'subModal', :plugin => 'substruct', :cache => 'substruct' %>
 	<%= stylesheet_link_tag 'main'%>
